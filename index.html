@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am C MOHAMMED AFFAN, a passionate developer with experience in web development.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Personal Blog Website </h3>
+            <p>This project is a responsive personal blog website built using HTML, CSS, and JavaScript. The website features a clean and modern design with a focus on readability and user experience. It includes a home page, about page, blog posts section, and contact form. The blog posts are dynamically loaded using JavaScript, and the website is fully responsive, ensuring it looks great on all devices.</p>
+        </div>
+        <div class="project">
+            <h3>E-commerce Store</h3>
+            <p>This project is a fully functional e-commerce store developed using React and Node.js. The store includes features such as product listings, product details, shopping cart, and user authentication. The back-end server is built with Node.js and Express, and it connects to a MongoDB database to manage product data and user information. The front-end is built with React, providing a seamless and dynamic user experience. Payment integration is implemented using Stripe API.</p>
+        </div>
+        
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" target="_blank">Download my resume</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
